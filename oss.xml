@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
+<remote name="baizhi" fetch="https://github.com/yuezhengbaizhi/" />
 <project path="vendor/oss/cash"  name="vendor-sony-oss-cash" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/fingerprint"  name="vendor-sony-oss-fingerprint" groups="device" remote="sony" revision="master" />
 <project path="vendor/oss/interfaces"  name="vendor-oss-interfaces" groups="device" remote="sony" revision="master" />
@@ -16,5 +17,8 @@
 <project path="packages/apps/ExtendedSettings" name="packages_apps_ExtendedSettings" groups="device" remote="sony" revision="q-mr1" />
 <project path="vendor/oss/repo_update" name="repo_update" groups="device" remote="sony" revision="master">
     <linkfile src="repo_update.sh" dest="repo_update.sh" />
+</project>
+<project path="vendor/oss/hentai_repo_update" name="hentai_repo_update" groups="device" remote="baizhi" revision="queenslave">
+<linkfile src="hentai_repo_update.sh" dest="hentai_repo_update.sh" />
 </project>
 </manifest>
