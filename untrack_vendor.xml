@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-<remove-project name="vendor/codeaurora/telephony/internal" />
-<remove-project name="vendor/codeaurora/telephony/ims" /> 
-</manifest>
