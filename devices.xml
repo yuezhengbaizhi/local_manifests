@@ -6,6 +6,7 @@
 <remove-project name="device/linaro/poplar-kernel" />
 <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="master" />
 <project path="device/sony/common" name="device-sony-common" groups="device" remote="baizhi" revision="queenslave" />
+<project path="device/sony/customization" name="device-sony-customization" groups="device" remote="baizhi" revision="queenslave" />
   
 <!--SDM845-->
 <!--<project path="device/sony/tama" name="device-sony-tama" groups="device" remote="baizhi" revision="queenslave" />
