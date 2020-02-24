@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="baizhi" fetch="https://github.com/yuezhengbaizhi/" />
+<project path="buildscripts" name="BuildScripts" remote="baizhi" revision="queenslave" />
+</manifest>
