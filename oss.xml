@@ -18,7 +18,4 @@
 <project path="vendor/oss/repo_update" name="repo_update" groups="device" remote="sony" revision="master">
     <linkfile src="repo_update.sh" dest="repo_update.sh" />
 </project>
-<project path="vendor/oss/hentai_repo_update" name="hentai_repo_update" groups="device" remote="baizhi" revision="queenslave">
-<linkfile src="hentai_repo_update.sh" dest="hentai_repo_update.sh" />
-</project>
 </manifest>
