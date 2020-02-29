@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="baizhi" fetch="https://github.com/yuezhengbaizhi/" />
-<project path="buildscripts" name="BuildScripts" remote="baizhi" revision="queenslave">
-  <linkfile src="start.sh" dest="start.sh" />
-</project>  
+<project path="buildscripts" name="BuildScripts" remote="baizhi" revision="queenslave" />
 <project path="vendor/oss/hentai_repo_update" name="hentai_repo_update" groups="device" remote="baizhi" revision="queenslave">
   <linkfile src="update.sh" dest="update.sh" />
 </project>  
